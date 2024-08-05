@@ -1,0 +1,114 @@
+.jobpost{
+    margin: 100px auto auto auto;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: system-ui;
+}
+.searchinp{
+    padding: 8px 23px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.jobtype{
+    display: flex;
+    gap: 10px;
+    background-color: #555658;
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.subtype div{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px;
+}
+.subtype{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.applbtn{
+    width: fit-content;
+    padding: 10px 38px;
+    font-size: 17px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-image: linear-gradient(to right, #BB362A, #F15042);
+}
+.sorttype{
+    display: flex;
+    gap: 10px;
+    background-color: #555658;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+.sorttype p{
+    color: white;
+    margin: 0;
+}
+.seltype{
+    background-color: #BB362A;
+    color: white;
+    padding: 3px 23px;
+    border-radius: 7px;
+}
+.sorttypesig{
+    padding: 3px 23px;
+    background: white;
+    border-radius: 7px;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.postsig{
+    padding: 12px;
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px gray;
+}
+.toppost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.postlogo{
+    font-size: 25px;
+}
+.toppost h1{
+    margin: 0;
+    font-size: 23px;
+    color: #BB362A;
+}
+.subdes{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.subdes p{
+    color: #BB362A;
+    margin: 0;
+}
+.lastpost{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pageno{
+    text-align: center;
+    margin: 30px 0px;
+}
+.one{
+    background-color: #BB362A;
+    border-radius: 50px;
+    padding: 3px 8px;
+    color: white;
+}

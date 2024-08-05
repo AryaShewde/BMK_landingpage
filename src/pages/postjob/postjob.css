@@ -1,0 +1,192 @@
+/* Carousel.css */
+.carousel {
+    position: relative;
+    width: fit-content;
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+.carousel-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    transition: transform 0.5s ease;
+    will-change: transform;
+}
+
+.item {
+    width: 150px;
+    height: auto;
+    background-color: #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    flex: 0 0 auto;
+    margin: 0 10px;
+}
+
+.item.hidden {
+    opacity: 0.7;
+    transform: scale(0.6);
+}
+
+.item.mid {
+    opacity: 0.8;
+    transform: scale(0.7);
+    z-index: -1;
+}
+
+.item.side {
+    opacity: 0.8;
+    transform: scale(1);
+    z-index: -1;
+}
+
+.item.center {
+    opacity: 1;
+    transform: scale(2);
+}
+
+.arrow {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 2px;
+    border: none;
+    font-size: 27px;
+    padding: 3px;
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.arrow.left {
+    left: 0;
+}
+
+.arrow.right {
+    right: 0;
+}
+
+.card {
+    border: 1px solid;
+    display: flex;
+    border-radius: 7px;
+    background: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 54px 6px;
+}
+
+.cardlogo {
+    font-size: 39px;
+    color: #BB362A;
+}
+
+.titlepf {
+    color: #BB362A;
+    font-family: system-ui;
+    font-weight: 500;
+}
+
+.descpf {
+    font-size: 10px;
+    font-family: system-ui;
+}
+.mkptop h1{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    color: #BB362A;
+}
+.mkptop p{
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.mkptop div{
+    color: #BB362A;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.mkp{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 154px auto auto auto;
+}
+.mkpbtm div{
+    font-size: 23px;
+    font-family: sans-serif;
+}
+.mkpbtm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+    margin-bottom: 50px;
+}
+.mkpbtm button{
+    padding: 12px 86px;
+    font-size: 22px;
+    font-family: sans-serif;
+    background: white;
+    border: 1px solid #BB362A;
+    color: #BB362A;
+    border-radius: 8px;
+}
+.nextbtn{
+    margin: 82px auto;
+}
+.nextbtn button{
+    font-size: 19px;
+    padding: 12px 89px;
+    background-image: linear-gradient(to right, #BB362A, #F45143);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+@media screen and (max-width: 1005px) {
+    .mkp{
+        width: 95%;
+    }
+    .cardlogo{
+        font-size: 23px;
+    }
+    .titlepf{
+        font-size: 15px;
+    }
+    .descpf{
+        font-size: 8px;
+    }
+    .item{
+        width: 85px;
+    }
+    .carousel {
+        width: 300px;
+    }
+    .card{
+        padding: 32px 6px;
+    }
+    .mkp{
+        margin: 77px auto auto auto;
+    }
+    .mkptop h1{
+        font-size: 24px;
+    }
+    .mkptop p{
+        font-size: 16px;
+    }
+    .mkptop div{
+        font-size: 23px;
+    }
+}
+

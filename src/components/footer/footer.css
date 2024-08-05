@@ -1,0 +1,56 @@
+.footer{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    background-color: gray;
+    padding: 70px 50px;
+}
+.footertop{
+    display: flex;
+    gap: 14vw;
+    width: fit-content;
+}
+.subfootertop li{
+    list-style: none;
+    font-size: 17px;
+    font-family: monospace;
+}
+.subfootertop p{
+    color: #BB362A;
+    font-size: 24px;
+    font-family: monospace;
+}
+.subfootertop ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    color: white;
+}
+.footerbtm{
+    width: fit-content;
+    color: #BB362A;
+    font-size: 24px;
+    font-family: monospace;
+}
+.footerbtm p{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.ftlogos{
+    display: flex;
+    gap: 5px;
+    color: white
+}
+@media screen and (max-width: 600px) {
+    .footertop{
+        flex-direction: column;
+        gap: 0;
+    }
+    .footer{
+        gap: 0;
+        padding: 27px 23px;
+    }
+}

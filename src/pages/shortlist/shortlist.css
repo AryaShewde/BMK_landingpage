@@ -1,0 +1,18 @@
+.shortlist{
+    margin: 100px auto 100px auto;
+}
+.shortlist div{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    gap: 42px;
+    font-weight: bold;
+    font-size: 23px;
+    color: red;
+    text-decoration: underline;
+}
+@media screen and (max-width: 400px) {
+    .shortlist div{
+        flex-direction: column;
+    }
+}

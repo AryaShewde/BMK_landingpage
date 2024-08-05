@@ -1,0 +1,93 @@
+.account{
+    margin: 100px auto 100px auto;
+    display: flex;
+    gap: 30px;
+    height: 100%;
+    font-family: system-ui;
+}
+.leftaccount{
+    width: 15%;
+    box-shadow: 2px 0px 4px gray;
+    height: 100vh;
+    padding: 69px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.leftaccount div{
+    padding: 10px;
+}
+.selectedleft{
+    color: white;
+    background-image: linear-gradient(to right, #BB362A, #FFFFFF);
+}
+.rightaccount{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.righttopacc{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+.righttopacc div{
+    background-image: linear-gradient(to right, #010610, #555658);
+    padding: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+.sigappled{
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.setappled{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sigappled div button{
+    padding: 10px 15px;
+    background-image: linear-gradient(to right, #BB362A, #F45143);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.sigappled div{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1025px) {
+    .righttopacc{
+        flex-wrap: wrap;
+    }
+    .leftaccount{
+        width: 127px;
+    }
+}
+@media screen and (max-width: 405px) {
+    .account{
+        gap: 5px;
+    }
+    .sigappled h1{
+        font-size: 18px;
+    }
+    .sigappled{
+        padding: 10px;
+    }
+    .sigappled div{
+        flex-direction: column;
+    }
+    .addimg img{
+        width: 140px;
+    }
+    .addphoto{
+        padding: 30px;
+    }
+    .details{
+        padding: 6px;
+    }
+}

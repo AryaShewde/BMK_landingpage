@@ -1,0 +1,149 @@
+.navbar {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    z-index: 1000;
+}
+
+.nav {
+    display: flex;
+    padding: 0px 52px;
+    gap: 2vw;
+}
+.nav1 {
+    display: flex;
+    padding: 0px 52px;
+    gap: 2vw;
+}
+
+.topList {
+    display: flex;
+    gap: 2vw;
+}
+
+.topListItem {
+    list-style: none;
+    font-family: system-ui;
+    font-size: 19px;
+}
+
+.logo img {
+    width: 265px;
+}
+
+.logo {
+    padding-left: 80px;
+}
+
+.authbtn {
+    background-color: rgba(187, 54, 42, 1);
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 43px;
+    padding: 0px 21px;
+}
+
+.hamburger {
+    display: none;
+    position: fixed;
+    right: 0;
+}
+.none{
+    display: none;
+}
+
+@media screen and (max-width: 1550px) {
+    .topList {
+        gap: 2vw;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .logo img {
+        width: 178px;
+    }
+
+    .authbtn {
+        font-size: 18px;
+    }
+
+    .nav {
+        padding: 0 22px;
+    }
+    .nav1 {
+        padding: 0 22px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .topListItem {
+        font-size: 15px;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+    }
+    .nav1 {
+        display: flex;
+        align-items: center;
+    }
+
+    .authbtn {
+        font-size: 15px;
+        padding: 5px 11px;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .navbar{
+        padding-bottom: 13px;
+    }
+    .nav {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    .nav1{
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        padding-top: 10px;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: baseline;
+        height: auto;
+    }
+    .logo{
+        padding-top: 20px;
+    }
+    .topList{
+        display: flex;
+        margin-left: -39px;
+        flex-direction: column;
+    }
+    .topListItem{
+        text-align: center;
+    }
+    .authbtn{
+        font-size: 17px;
+        padding: 9px 11px;
+        margin-bottom: 20px;
+    }
+}

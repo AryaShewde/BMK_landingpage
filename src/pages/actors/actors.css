@@ -1,0 +1,106 @@
+.jobtype{
+    display: flex;
+    gap: 10px;
+    background-color: #555658;
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.subtype div{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px;
+}
+.subtype{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.actorspage{
+    margin: 100px auto 100px auto;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: system-ui;
+}
+.subtype input{
+    width: fit-content;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    outline: none;
+}
+.actor img{
+    width: 300px;
+}
+.actor{
+    display: flex;
+    gap: 33px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 9px;
+}
+.actors{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.actags{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.actags p{
+    color: white;
+    background-color: #BB362A;
+    padding: 3px 9px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+.nameact{
+    color: #BB362A;
+    font-size: 20px;
+    font-weight: 600;
+}
+.otdet{
+    font-size: 16px;
+    font-weight: 500;
+    color: #BB362A;
+}
+.lastlnact{
+    margin-top: 20px;
+    color: #BB362A;
+    text-decoration: underline;
+}
+.rightactor{
+    padding: 12px;
+}
+.flex{
+    display: flex;
+    gap: 5px;
+}
+.pageno{
+    text-align: center;
+    margin: 30px 0px;
+}
+.one{
+    background-color: #BB362A;
+    border-radius: 50px;
+    padding: 3px 8px;
+    color: white;
+}
+@media screen and (max-width: 1100px) {
+    .actor img{
+        width: 193px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .actor{
+        flex-direction: column;
+    }
+}

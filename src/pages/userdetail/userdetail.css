@@ -1,0 +1,133 @@
+.details {
+    display: flex;
+    margin: 100px auto auto auto;
+    gap: 43px;
+    padding: 32px;
+    font-family: system-ui;
+}
+
+.leftdetail {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rightdetail {
+    width: 80%;
+}
+
+.imgdet {
+    width: 100%;
+}
+
+.leftsubdet p {
+    margin: 0;
+    color: #BB362A;
+}
+
+.dettag {
+    margin: 0;
+    padding: 2px 14px;
+    border-radius: 100px;
+    border: 1px solid #BB362A;
+    color: #BB362A;
+    font-weight: 500;
+    width: fit-content;
+    ;
+}
+
+.rightsubdet h1 {
+    margin: 0;
+    color: #BB362A;
+}
+
+.rightsubdet p {
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.rightsubdet {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skills {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: #BB362A;
+    color: white;
+    padding: 0px 16px 2px 16px;
+    border-radius: 8px;
+}
+
+.listtit {
+    font-size: 19px;
+    font-weight: 600;
+    color: #BB362A;
+}
+
+.addimg img {
+    width: 220px;
+    border-radius: 21px;
+}
+
+.addimg {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.addphoto {
+    font-size: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    border: 1px solid gray;
+    border-radius: 22px;
+    color: #BB362A;
+}
+.rightsubdet{
+    display: flex;
+    gap: 10px;
+}
+.rightsubdet button{
+    font-size: 20px;
+    color: white;
+    background: #BB362A;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 24px;
+}
+.btns{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 700px) {
+    .details {
+        flex-direction: column;
+    }
+
+    .leftdetail {
+        width: 50%;
+    }
+
+    .rightdetail {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .leftdetail {
+        width: 90%;
+    }
+}

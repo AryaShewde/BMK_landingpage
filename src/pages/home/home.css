@@ -1,0 +1,420 @@
+.home {
+    width: 100%;
+}
+
+.landingpg {
+    width: 80%;
+    margin: auto;
+}
+
+.topsec {
+    display: flex;
+    padding: 180px 0px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4vw;
+}
+
+.topsec img {
+    width: 600px;
+    border-radius: 12px;
+}
+
+.lefttoptit {
+    color: rgba(187, 54, 42, 1);
+    font-size: 44px;
+    font-weight: bold;
+    font-family: system-ui;
+}
+
+.lefttopsec {
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+}
+
+.lefttopdesc {
+    font-size: 30px;
+    font-family: system-ui;
+}
+
+.lefttopbtn {
+    width: fit-content;
+    font-size: 30px;
+    color: white;
+    border: none;
+    background-color: rgba(187, 54, 42, 1);
+    padding: 13px 74px;
+    border-radius: 12px;
+    font-family: monospace;
+}
+
+.fjob {
+    padding: 140px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.fjobt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fjobtit {
+    font-size: 49px;
+    font-family: sans-serif;
+    color: rgba(187, 54, 42, 1);
+}
+
+.viewbtn {
+    color: rgba(187, 54, 42, 1);
+    font-size: 20px;
+    padding: 0px 26px;
+    border: 2px solid rgb(121, 118, 118);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.fjarrowbtn {
+    font-size: 35px;
+}
+
+.lfjob img {
+    width: 90px;
+}
+
+.fjobele {
+    padding: 12px 45px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.rfjob button {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 10px 27px;
+    font-size: 20px;
+    background-color: rgba(187, 54, 42, 1);
+    color: white;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.rfjob {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.lfjob {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.bookmark {
+    font-size: 31px;
+}
+
+.jobdetails {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.jobdtext {
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+.jobdt {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tag {
+    background-color: rgba(187, 54, 42, 1);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 22px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.jobod {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #636A80;
+}
+
+.jobod div {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    gap: 7px;
+}
+
+.odlogo {
+    font-size: 25px;
+}
+
+.fjobeles {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.banner {
+    background-image: linear-gradient(to right, #010610, #555658);
+    color: white;
+    padding: 65px 42px;
+    display: flex;
+    gap: 3vw;
+    align-items: center;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.banner2 {
+    background-image: linear-gradient(to right, #010610, #555658);
+    color: white;
+    padding: 32px 42px;
+    display: flex;
+    gap: 3vw;
+    align-items: center;
+    margin-bottom: 80px;
+    border-radius: 10px;
+}
+
+.banner p {
+    font-size: 25px;
+    font-family: system-ui;
+}
+
+.banner button {
+    background-image: linear-gradient(to right, #BB362A, #F45143);
+    width: 43%;
+    font-size: 25px;
+    height: fit-content;
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+    font-family: monospace;
+    color: white;
+}
+
+.banner2 p {
+    font-size: 25px;
+    font-family: system-ui;
+}
+
+.banner2 button {
+    background-image: linear-gradient(to right, #BB362A, #F45143);
+    width: 43%;
+    font-size: 25px;
+    height: fit-content;
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+    font-family: monospace;
+    color: white;
+}
+
+.talentsec {
+    padding: 35px 0px;
+}
+
+.taltit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.taltit p {
+    font-size: 30px;
+    margin: 0;
+    font-family: monospace;
+    color: #BB362A;
+}
+
+.tals {
+    display: flex;
+    justify-content: space-between;
+    padding: 46px 0px;
+}
+
+.tals img {
+    width: 27%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px gray;
+}
+
+@media screen and (max-width: 1405px) {
+    .topsec {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .lefttoptit {
+        font-size: 29px;
+    }
+
+    .lefttopdesc {
+        font-size: 20px;
+    }
+
+    .lefttopsec {
+        gap: 16px;
+    }
+
+    .lefttopbtn {
+        font-size: 19px;
+        padding: 4px 23px;
+    }
+
+    .topsec img {
+        width: 80%;
+    }
+
+    .topsec {
+        padding: 100px 0px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .fjobele {
+        padding: 8px 7px;
+    }
+
+    .jobdtext {
+        font-size: 17px;
+    }
+
+    .rfjob button {
+        padding: 6px 14px;
+        font-size: 13px;
+    }
+
+    .fjarrowbtn {
+        font-size: 23px;
+    }
+
+    .bookmark {
+        font-size: 20px;
+    }
+
+    .rfjob {
+        gap: 9px;
+    }
+
+    .lfjob img {
+        width: 60px;
+    }
+
+    .tag {
+        padding: 2px 8px;
+        font-size: 10px;
+    }
+
+    .odlogo {
+        font-size: 17px;
+    }
+
+    .lfjob {
+        gap: 10px;
+    }
+
+    .jobod div {
+        font-size: 12px;
+    }
+
+    .jobdetails {
+        gap: 2px;
+    }
+
+    .jobod {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .jobod {
+        gap: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .lfjob img {
+        width: 37px;
+    }
+
+    .jobdtext {
+        font-size: 13px;
+    }
+
+    .fjobabtn div {
+        display: none;
+    }
+
+    .rfjob button {
+        padding: 0;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding: 22px 14px;
+    }
+
+    .banner2 {
+        flex-direction: column;
+        padding: 22px 14px;
+    }
+
+    .fjob {
+        padding: 71px 0px;
+    }
+
+    .banner p {
+        font-size: 15px;
+    }
+
+    .banner2 p {
+        font-size: 15px;
+    }
+
+    .banner button {
+        font-size: 15px;
+    }
+
+    .banner2 button {
+        font-size: 15px;
+    }
+
+    .fjobtit {
+        font-size: 22px
+    }
+
+    .viewbtn {
+        font-size: 12px;
+        padding: 0px 5px;
+    }
+    .fjob{
+        gap: 20px;
+    }
+    .taltit p{
+        font-size: 14px;
+    }
+    .tals{
+        padding: 34px 0px;
+    }
+}
